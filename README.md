@@ -34,3 +34,6 @@ Pull requests are welcome. For major changes, please open an issue first.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## $CLARA-TOKEN
+$Clara will release the official token at pump.fun and will update ca after the deployment is completed.
