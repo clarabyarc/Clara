@@ -29,8 +29,6 @@ This project is an AI-powered Twitter bot that transforms user avatars into cute
    ```
 2. Follow the on-screen instructions to interact with the bot on Twitter.
 
-CA:soon
-
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first.
 
