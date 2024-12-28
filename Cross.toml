@@ -1,0 +1,14 @@
+[target.x86_64-unknown-linux-gnu]
+image = "ubuntu:22.04"
+pre-build = ["apt-get update && apt-get install -y pkg-config gcc libssl-dev openssl libcrypto++8 mosquitto-dev libclang-dev cmake"]
+
+[target.x86_64-unknown-linux-musl]
+image = "ubuntu:22.04"
+pre-build = ["apt-get update && apt-get install -y pkg-config libssl-dev openssl gcc cmake build-essential musl-tools"]
+
+[target.x86_64-unknown-linux-musl.env]
+passthrough = [
+    "RUST_DEBUG",
+    "RUST_BACKTRACE",
+    "RUST_LOG",
+]

@@ -1,0 +1,26 @@
+[package]
+name = "clara"
+version = "0.1.0"
+edition = "2021"
+description = "An AI-powered Twitter bot that transforms user avatars into cute cat illustrations with stories"
+
+[lib]
+name = "clara"
+path = "src/lib.rs"
+
+[dependencies]
+tokio = { version = "1.0", features = ["macros", "rt-multi-thread", "full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+log = "0.4"
+env_logger = "0.11.6"
+thiserror = "2.0.9"
+anyhow = "1.0"
+dotenv = "0.15"
+rig-core = "0.6.0"
+ureq = { version = "2.8.0", features = ["json"] }
+base64 = "0.22.1"
+directories-next = "2.0.0"
+uuid = { version = "1.5.0", features = ["v4"] }
+agent-twitter-client = "0.1.2"
+jsonwebtoken = "9.3.0"
